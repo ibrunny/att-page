@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brunny's - Cadastro</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="eco-container">
+        <h1>Brunny's</h1>
+        <p>Brazilian Vegan Fast Food!</p>
+        <form id="ecoForm">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+            <label for="preferencia">Qual comida você quer?</label>
+            <select id="preferencia" name="preferencia" required>
+                <option value="pizza">Pizza</option>
+                <option value="churros">Churros</option>
+                <option value="bolo">Bolo</option>
+                <option value="hamburguer">Hamburguer</option>
+                <option value="dragon">Esfera do Dragão</option>
+                <option value="lamen">Lamen do Naruto</option>
+            </select>
+
+            <button type="submit">Quero a Minha COMIDA!</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
